@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  &__content-wrapper {
+    width: 80%;
+    background-color: #8DE8FE;
+    border-radius: 10px;
+  }
+  &__content-title{
+    text-align: center;
+    height: 5rem;
+    background: #0C131F;
+    border: 1px solid #8DE8FE;
+    border-radius: .5rem;
+    color: white;
+  }
+  &__link{
+    position: absolute;
+    top: 0;
+    margin-top: 5rem;
+    color: grey;
+    background: white;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 5px solid #8DE8FE;
+    font-size: 1.5rem;
+  }
+}
