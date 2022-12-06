@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/api-sncf/static/css/main.690b4f4a.css",
+    "main.js": "/api-sncf/static/js/main.4d49ad05.js",
+    "index.html": "/api-sncf/index.html",
+    "main.690b4f4a.css.map": "/api-sncf/static/css/main.690b4f4a.css.map",
+    "main.4d49ad05.js.map": "/api-sncf/static/js/main.4d49ad05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.690b4f4a.css",
+    "static/js/main.4d49ad05.js"
+  ]
+}
