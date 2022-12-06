@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const CityCard = ({ city }) => {
   return (
-    <Link to={`${city}`} className='city-card' style={{ backgroundImage: `url(../images/${city}.webp)` }}>
+    <Link to={`${city}`} className='city-card' style={{ backgroundImage: `url(../images/${city}.jpg)` }}>
       <h3 className='city-card__name'>{city}</h3>
     </Link>
   )
