@@ -6,7 +6,14 @@ const CityCard = ({ city }) => {
   return (
     <Link to={`${city}`} className='city-card'>
       <h3 className='city-card__name'>{city}</h3>
-      <img type="jpeg" src={`/images/${city}.jpg`} alt="" style={{height: '100%', width: '100%', borderRadius: '.5rem'}} />
+      <img  alt="" style={{
+        height: '100%',
+         width: '100%',
+          borderRadius: '.5rem',
+          backgroundImage: `url(../images/${city}.jpg)`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          }} />
     </Link>
   )
 }
