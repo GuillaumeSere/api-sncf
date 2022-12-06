@@ -27,7 +27,7 @@ const Origin = ({ idArrival}) => {
             {stops.map((stop, index) => (
                 <li className='stops__station' key={stop}>
                     {stop}
-                    <img src='/images/yellow.jpg' alt='yellow point' style={{
+                    <img src='../images/yellow.jpg' alt='yellow point' style={{
                         display: `${index === stops.length - 1 ? 'none' : 'inline'}`
                     }}/>
                 </li>

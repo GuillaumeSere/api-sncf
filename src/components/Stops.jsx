@@ -25,7 +25,7 @@ const Stops = ({idDeparture}) => {
         {nextStops.map((stop, index) => (
             <li className='stops__station' key={stop}>
                 {stop}
-                <img src='/images/yellow.jpg' alt='yellow point'style={{
+                <img src='../images/yellow.jpg' alt='yellow point'style={{
                     display: `${index === nextStops.length - 1 ? 'none' : 'inline'}`
                 }} />
             </li>
