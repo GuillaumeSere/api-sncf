@@ -1,6 +1,7 @@
 .city-card {
+  position: relative;
   width: 30%;
-  height: 10rem;
+  height: 15rem;
   border-radius: 10px;
   background-position: center;
   text-decoration: none;
@@ -15,9 +16,8 @@
   }
 
   &__name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    text-align: center;
     font-size: 2rem;
     color: white;
     text-transform: capitalize;
