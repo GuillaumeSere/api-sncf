@@ -11,17 +11,10 @@
     height: 80vh;
   }
   &__content-title{
-    position: absolute;
-    font-family: 'Roboto Mono', monospace;
-    top:0;
-    width: 100%;
     text-align: center;
-    height: 5rem;
-    padding-top: 1rem;
-    background: #324d7a;
-    border-bottom: 2px solid white;
-    color: white;
-    box-shadow: 3px 8px 15px -3px #b1b4b9 ;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
   }
   &__link{
     position: absolute;
@@ -39,6 +32,10 @@
   }
 }
 
+.header{
+    height: 120px;
+}
+
 @media (max-width:990px){
     .home__content-title{
         font-size: 1.5rem;
@@ -48,5 +45,13 @@
 @media (max-width:500px){
     .home__content-title{
         font-size: 1.2rem;
+    }
+    .animation{
+        height: 300px !important;
+        width: 300px !important;
+        margin-top: -5rem !important;
+    }
+    .home__content-title{
+        margin-top: -3rem;
     }
 }
