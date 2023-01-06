@@ -21,7 +21,7 @@
     }
 
     &__departures {
-        background-color: #123a9f57;
+        background-color: #123a9f;
         color: white;
 
         &:hover {
@@ -29,12 +29,12 @@
         }
 
         &--active {
-            background-color: #123a9fab;
+            background-color: #123a9f;
         }
     }
 
     &__arrivals {
-        background-color: #28893957;
+        background-color: #28893a;
         color: white;
 
         &:hover {
@@ -42,7 +42,7 @@
         }
 
         &--active {
-            background-color: #288939ab;
+            background-color: #28893a;
         }
     }
 }

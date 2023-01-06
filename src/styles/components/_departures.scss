@@ -1,5 +1,5 @@
 .departure {
-    background-color: #123a9fab;
+    background-color: #123a9f;
     display: grid;
     grid-template-columns: 1fr 1.5fr 1.5fr 6fr 1fr;
     grid-template-rows: 1fr 1fr 2fr;
@@ -16,7 +16,7 @@
     }
 
     &--light {
-        background-color: #0365F4ab;
+        background-color: #0363f4;
     }
 
     &__operator {

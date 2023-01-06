@@ -3,7 +3,20 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  background-color: #1b6ccad8;
+  background-color: #a8acb0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #a8acb0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
 }
 
 html,
@@ -82,6 +95,13 @@ li {
   font-size: 1.2rem;
 }
 
+@media screen and (max-width: 600px) {
+  .home__link {
+    font-size: 1rem;
+    padding: .5rem;
+  }
+}
+
 .header {
   height: 120px;
 }
@@ -117,9 +137,23 @@ li {
 }
 
 .city__name {
-  color: #8DE8FE;
+  color: #020202;
+  margin: 0 auto;
   text-align: center;
+  border: 5px solid #8DE8FE;
+  border-radius: .5rem;
+  background: white;
+  width: 300px;
+  font-size: 3rem;
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 600px) {
+  .city__name {
+    width: 179px;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
 }
 
 .city-cards {
@@ -184,7 +218,7 @@ li {
 }
 
 .departure {
-  background-color: #123a9fab;
+  background-color: #123a9f;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1.5fr 1.5fr 6fr 1fr;
@@ -210,7 +244,7 @@ li {
 }
 
 .departure--light {
-  background-color: #0365F4ab;
+  background-color: #0363f4;
 }
 
 .departure__operator {
@@ -343,7 +377,7 @@ li {
 }
 
 .arrival {
-  background-color: #017142ab;
+  background-color: #017142;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1.5fr 1.5fr 6fr 1fr;
@@ -370,7 +404,7 @@ li {
 }
 
 .arrival--light {
-  background-color: #00A253ab;
+  background-color: #00a254;
 }
 
 .arrival__operator {
@@ -587,7 +621,7 @@ li {
 }
 
 .directions__departures {
-  background-color: #123a9f57;
+  background-color: #123a9f;
   color: white;
 }
 
@@ -596,11 +630,11 @@ li {
 }
 
 .directions__departures--active {
-  background-color: #123a9fab;
+  background-color: #123a9f;
 }
 
 .directions__arrivals {
-  background-color: #28893957;
+  background-color: #28893a;
   color: white;
 }
 
@@ -609,7 +643,7 @@ li {
 }
 
 .directions__arrivals--active {
-  background-color: #288939ab;
+  background-color: #28893a;
 }
 
 .stops {

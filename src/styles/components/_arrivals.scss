@@ -1,5 +1,5 @@
 .arrival {
-    background-color: #017142ab;
+    background-color: #017142;
     display: grid;
     grid-template-columns: 1fr 1.5fr 1.5fr 6fr 1fr;
     grid-template-rows: 1fr 1fr 2fr;
@@ -16,7 +16,7 @@
     }
 
     &--light {
-        background-color: #00A253ab;
+        background-color: #00a254;
     }
 
     &__operator {

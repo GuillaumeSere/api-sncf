@@ -6,8 +6,20 @@
     }
 
     &__name {
-        color: #8DE8FE;
+        color: #020202;
+        margin: 0 auto;
         text-align: center;
+        border: 5px solid #8DE8FE;
+        border-radius: .5rem;
+        background: white;
+        width: 300px;
+        font-size: 3rem;
         text-transform: capitalize;
+
+        @media screen and (max-width: 600px) {
+            width: 179px;
+            font-size: 2rem;
+            margin-top: 2rem;
+        }
     }
 }
