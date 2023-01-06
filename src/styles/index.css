@@ -534,14 +534,12 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    min-height: 50vh;
     width: 40%;
   }
 }
 
 @media screen and (max-width: 650px) {
   .train-stations {
-    min-height: 50vh;
     width: 80%;
   }
 }
@@ -561,6 +559,12 @@ li {
   background-color: #FFFFFF;
   border-radius: 5px;
   padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .train-stations__link {
+    margin-top: 1rem;
+  }
 }
 
 .train-stations__link:hover {
@@ -599,12 +603,6 @@ li {
 .train-station {
   width: 80%;
   margin: auto;
-}
-
-@media screen and (max-width: 650px) {
-  .train-station {
-    width: 100%;
-  }
 }
 
 .directions {
