@@ -1,5 +1,6 @@
 import React from 'react'
 import CityCards from '../components/CityCards'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 
@@ -13,6 +14,7 @@ const Home = () => {
                 <CityCards />
             </div>
         </div>
+        <Footer />
         </>
     )
 }
