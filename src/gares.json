@@ -30,5 +30,50 @@
   },
   "toulouse": {
     "Toulouse Matabiau": "stop_area:SNCF:87611004"
+  },
+  "montpellier": {
+    "Montpellier Saint-Roche": "stop_area:SNCF:87773002"
+  },
+  "rennes": {
+    "Gare de Rennes": "stop_area:SNCF:87471003"
+  },
+  "tours": {
+    "Gare de Tours": "stop_area:SNCF:87571240"
+  },
+  "avignon": {
+    "Gare d'Avignon": "stop_area:SNCF:87318964"
+  },
+  "toulon": {
+    "Gare de Toulon": "stop_area:SNCF:87755009"
+  },
+  "poitiers": {
+    "Gare de Poitiers": "stop_area:SNCF:87575001"
+  },
+  "le mans": {
+    "Gare du Mans": "stop_area:SNCF:87396002"
+  },
+  "angers": {
+    "Gare d'Angers-Saint-Laud": "stop_area:SNCF:87484006"
+  },
+    "nîmes": {
+    "Gare de Nîmes": "stop_area:SNCF:87775007"
+  },
+  "chessy": {
+    "Gare de Marne-la-Vallée-Chessy": "stop_area:SNCF:87111849"
+  },
+  "massy": {
+    "Gare de Massy": "stop_area:SNCF:87393702"
+  },
+  "charles-de-gaulle 2": {
+    "Aéroport Charles-de-Gaulle 2": "stop_area:SNCF:87001479"
+  },
+  "lorraine": {
+    "Gare de Lorraine": "stop_area:SNCF:87142109"
+  },
+  "beauvais": {
+    "Gare de Beauvais": "stop_area:SNCF:87313510"
+  },
+  "amiens": {
+    "Gare d'Amiens": "stop_area:SNCF:87313874"
   }
 }
