@@ -14,7 +14,7 @@ const City = () => {
       <h2 className='city__name'>{city}</h2>
       <TrainStations stations={stations[city]} />
       <Outlet />
-      <NavLink to="/" className='home__link'>Acceuil</NavLink>
+      <NavLink to="/" className='home__link'>Accueil</NavLink>
     </div>
     <Footer />
     </>
