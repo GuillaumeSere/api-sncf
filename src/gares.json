@@ -75,5 +75,44 @@
   },
   "amiens": {
     "Gare d'Amiens": "stop_area:SNCF:87313874"
+  },
+  "nice": {
+    "Nice Ville": "stop_area:SNCF:87756056"
+  },
+  "grenoble": {
+    "Gare de Grenoble": "stop_area:SNCF:87747006"
+  },
+  "dijon": {
+    "Gare de Dijon": "stop_area:SNCF:87713040"
+  },
+  "nancy": {
+    "Gare de Nancy": "stop_area:SNCF:87141002"
+  },
+  "metz": {
+    "Gare de Metz": "stop_area:SNCF:87192039"
+  },
+  "rouen": {
+    "Gare de Rouen": "stop_area:SNCF:87411017"
+  },
+  "mulhouse": {
+    "Gare de Mulhouse": "stop_area:SNCF:87182063"
+  },
+  "colmar": {
+    "Gare de Colmar": "stop_area:SNCF:87182014"
+  },
+  "dunkerque": {
+    "Gare de Dunkerque": "stop_area:SNCF:87281006"
+  },
+  "le-havre": {
+    "Gare du Havre": "stop_area:SNCF:87413013"
+  },
+  "reims": {
+    "Gare de Reims": "stop_area:SNCF:87171009"
+  },
+  "cannes": {
+    "Gare de Cannes": "stop_area:SNCF:87757625"
+  },
+  "saint-malo": {
+    "Gare de Saint-Malo": "stop_area:SNCF:87478107"
   }
 }

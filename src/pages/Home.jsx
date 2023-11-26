@@ -10,7 +10,7 @@ const Home = () => {
         <Header />
         <div className='home'>
             <div className='home__content-wrapper'>
-            <h1 className='home__content-title'>Choisissez une ville pour afficher les horaires des trains</h1>
+            <h1 className='home__content-title'>Choisissez une<span> ville </span>pour afficher les <span>horaires</span> des trains</h1>
                 <CityCards />
             </div>
         </div>
