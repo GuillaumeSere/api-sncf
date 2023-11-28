@@ -18,7 +18,6 @@
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     margin-top: 1rem;
-    border-bottom: 1px solid black;
   }
   &__link{
     position: absolute;
@@ -47,6 +46,22 @@
 
 .header{
     height: 120px;
+}
+
+.input-search{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    padding: 1rem;
+    font-weight: bold;
+    color: grey;
+    background-color: rgb(35, 35, 35);
+}
+
+.input-search:focus{
+    outline: none;
 }
 
 .footer{
