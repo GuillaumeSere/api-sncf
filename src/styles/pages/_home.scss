@@ -47,9 +47,23 @@
 .header{
     height: 120px;
 }
+.QR-code{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  top: 5rem;
+  right:2rem;
+}
+.description-QR{
+    position: absolute;
+    right: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    top: 2rem;
+}
 
 .input-search{
-    width: 100%;
+    width: 97%;
     height: 2.5rem;
     border-radius: 20px;
     border: none;
@@ -92,7 +106,30 @@
     }
 }
 
+@media (max-width:695px){
+    .input-search{
+        width: 90%;
+    }
+}
+
 @media (max-width:500px){
+    .QR-code{
+        height: 50px;
+        width: 50px;
+        top: 2rem;
+        left: 2rem;
+      }
+      .description-QR{
+        position: absolute;
+        left: 1rem;
+        font-size: 14px;
+        font-weight: bold;
+        top: 0.2rem;
+    }
+    
+      .input-search{
+        width: 85%;
+    }
     .home__content-title{
         font-size: 1.2rem;
     }
