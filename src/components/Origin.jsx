@@ -21,7 +21,7 @@ const Origin = ({ idArrival}) => {
 
   return (
     <>
-      <p className='arrival__origin'>{stops[2]}</p>
+      <p className='arrival__origin'>{stops[0]}</p>
       <div className='arrival__stops'>
         <ul className='stops'>
             {stops.map((stop, index) => (
