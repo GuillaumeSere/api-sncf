@@ -272,15 +272,15 @@
     "Gare de Rochefort": "stop_area:SNCF:87485144"
   },
   "roscoff": {
-    "Gare de Roscoff": "stop_area:SNCF:87473480"
+    "Gare de Roscoff": "stop_area:SNCF:87474635"
   },
   "royan": {
-    "Gare de Royan": "stop_area:SNCF:87483143"
+    "Gare de Royan": "stop_area:SNCF:87491803"
   },
   "saint-brieuc": {
-    "Gare de Saint-Brieuc": "stop_area:SNCF:87471029"
+    "Gare de Saint-Brieuc": "stop_area:SNCF:87473009"
   },
   "vannes": {
-    "Gare de Vannes": "stop_area:SNCF:87478048"
+    "Gare de Vannes": "stop_area:SNCF:87476606"
   }
 }
