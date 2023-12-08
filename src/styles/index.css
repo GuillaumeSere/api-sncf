@@ -283,6 +283,10 @@ li {
   color: white;
   font-size: 1.5rem;
 }
+.departure .departure_destination {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
 @media screen and (max-width: 850px) {
   .departure {
     grid-template-columns: 1fr 2fr 2fr 4fr 1fr;
