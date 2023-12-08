@@ -8,6 +8,8 @@
    .departure_destination{
         color: rgb(255, 255, 255);
         font-weight: bold;
+        display: flex;
+        justify-content: center;
     }
 
     @media screen and (max-width: 850px) {
@@ -73,6 +75,7 @@
         grid-row-start: 1;
         grid-row-end: span 2;
         font-size: 1.2rem;
+        font-weight: bold;
 
         @media screen and (max-width: 750px) {
             font-size: 1rem;

@@ -61,6 +61,7 @@
         grid-row-start: 1;
         grid-row-end: span 2;
         font-size: 1.2rem;
+        font-weight: bold;
 
         @media screen and (max-width: 750px) {
             font-size: 1rem;
@@ -76,7 +77,8 @@
         grid-column-end: span 1;
         grid-row-start: 1;
         grid-row-end: span 2;
-        font-weight: 700;
+        font-weight: bold;
+        margin-left: 1rem;
     }
 
     &__stops {
