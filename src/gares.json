@@ -117,5 +117,170 @@
   },
   "toul":{
     "Gare de Toul": "stop_area:SNCF:87141044"
+  },
+  "paray-monial": {
+    "Gare de Paray-Monial": "stop_area:SNCF:87694687"
+  },
+  "riom": {
+    "Gare de Riom-Châtel-Guyon": "stop_area:SNCF:87734053"
+  },
+  "gueret": {
+    "Gare de Guéret": "stop_area:SNCF:87597609"
+  },
+  "millau": {
+    "Gare de Millau": "stop_area:SNCF:87783001"
+  },
+  "foix": {
+    "Gare de Foix": "stop_area:SNCF:87611616"
+  },
+  "tarbes": {
+    "Gare de Tarbes": "stop_area:SNCF:87671008"
+  },
+  "bayonne": {
+    "Gare de Bayonne": "stop_area:SNCF:87673004"
+  },
+  "la-roche-sur-yon": {
+    "Gare de La Roche-sur-Yon": "stop_area:SNCF:87486019"
+  },
+  "niort": {
+    "Gare de Niort": "stop_area:SNCF:87485300"
+  },
+  "mont-de-marsan": {
+    "Gare de Mont-de-Marsan": "stop_area:SNCF:87671016"
+  },
+  "auch": {
+    "Gare d'Auch": "stop_area:SNCF:87611749"
+  },
+  "dax": {
+    "Gare de Dax": "stop_area:SNCF:87673202"
+  },
+  "agen": {
+    "Gare d'Agen": "stop_area:SNCF:87586008"
+  },
+  "brive-la-gaillarde": {
+    "Gare de Brive-la-Gaillarde": "stop_area:SNCF:87594002"
+  },
+  "limoges": {
+    "Gare de Limoges-Bénédictins": "stop_area:SNCF:87592006"
+  },
+  "cahors": {
+    "Gare de Cahors": "stop_area:SNC:87613000"
+  },
+  "pau": {
+    "Gare de Pau": "stop_area:SNCF:87672006"
+  },
+  "albi": {
+    "Gare d'Albi-Ville": "stop_area:SNCF:87615005"
+  },
+  "carcassonne": {
+    "Gare de Carcassonne": "stop_area:SNCF:87615286"
+  },
+  "perpignan": {
+    "Gare de Perpignan": "stop_area:SNCF:87784009"
+  },
+  "figeac": {
+    "Gare de Figeac": "stop_area:SNCF:87613091"
+  },
+  "rodez": {
+    "Gare de Rodez": "stop_area:SNCF:87613422"
+  },
+  "angouleme": {
+    "Gare d'Angoulême": "stop_area:SNCF:87583005"
+  },
+  "st-etienne": {
+    "Gare de Saint-Étienne-Châteaucreux": "stop_area:SNCF:87726000"
+  },
+  "aubenas": {
+    "Gare de Aubenas": "stop_area:SNCF:87764753"
+  },
+  "orange": {
+    "Gare d'Orange": "stop_area:SNCF:87765107"
+  },
+  "montelimar": {
+    "Gare de Montélimar": "stop_area:SNCF:87764001"
+  },
+  "annecy": {
+    "Gare d'Annecy": "stop_area:SNCF:87746008"
+  },
+  "chambery": {
+    "Gare de Chambéry-Challes-Eaux": "stop_area:87741009"
+  },
+  "aix-bains": {
+    "Gare d'Aix-Bains Revard": "stop_area:SNCF:87741132"
+  },
+  "laval": {
+    "Gare de Laval": "stop_area:SNCF:87478404"
+  },
+  "lorient": {
+    "Gare de Lorient": "stop_area:SNCF:87476002"
+  },
+  "quimper": {
+    "Gare de Quimper": "stop_area:SNCF:87474098"
+  },
+  "reze": {
+    "Gare de Rezé-Pont-Rousseau": "stop_area:SNCF:87481036"
+  },
+  "saint-herblain": {
+    "Gare de Saint-Herblain": "stop_area:SNCF:87481069"
+  },
+  "narbonne": {
+    "Gare de Narbonne": "stop_area:SNCF:87781104"
+  },
+  "cerbere": {
+    "Gare de Cerbère": "stop_area:SNCF:87785006"
+  },
+  "briancon": {
+    "Gare de Briançon": "stop_area:SNCF:87763607"
+  },
+  "moutiers": {
+    "Gare de Moutiers-Salins-Brides-Bains": "stop_area:SNCF:87741728"
+  },
+  "bourges": {
+    "Gare de Bourges": "stop_area:SNCF:87576207"
+  },
+  "nevers": {
+    "Gare de Nevers": "stop_area:SNCF:87696005"
+  },
+  "vichy": {
+    "Gare de Vichy": "stop_area:SNCF:87732008"
+  },
+  "arras": {
+    "Gare d'Arras": "stop_area:SNCF:87342014"
+  },
+  "bethune": {
+    "Gare de Béthune": "stop_area:SNCF:87342006"
+  },
+  "calais": {
+    "Gare de Calais-Fréthun": "stop_area:SNCF:87281071"
+  },
+  "deauville": {
+    "Gare de Deauville-Trouville": "stop_area:SNCF:87444372"
+  },
+  "la-baule": {
+    "Gare de La Baule-Escoublac": "stop_area:SNCF:87481754"
+  },
+  "la-rochelle": {
+    "Gare de La Rochelle": "stop_area:SNCF:87485003"
+  },
+  "le-touquet": {
+    "Gare du Touquet-Paris-Plage": "stop_area:SNCF:87317065"
+  },
+  "quiberon": {
+    "Gare de Quiberon": "stop_area:SNCF:87476457"
+  },
+  "rochefort": {
+    "Gare de Rochefort": "stop_area:SNCF:87485144"
+  },
+  "roscoff": {
+    "Gare de Roscoff": "stop_area:SNCF:87473480"
+  },
+  "royan": {
+    "Gare de Royan": "stop_area:SNCF:87483143"
+  },
+  "saint-brieuc": {
+    "Gare de Saint-Brieuc": "stop_area:SNCF:87471029"
+  },
+  "vannes": {
+    "Gare de Vannes": "stop_area:SNCF:87478048"
   }
 }
