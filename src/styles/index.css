@@ -577,7 +577,7 @@ li {
 .stops {
   display: flex;
   align-items: center;
-  animation: scrollText 25s linear infinite;
+  animation: scrollText 13s linear infinite;
 }
 
 @keyframes scrollText {
