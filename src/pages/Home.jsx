@@ -10,6 +10,7 @@ const Home = () => {
 
     const handleSearchChange = (e) => {
         setSearchTerm(e.target.value);
+           console.log('Search Term:', e.target.value);
     };
 
     return (

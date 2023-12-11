@@ -18,6 +18,7 @@ const Departures = () => {
                         'Authorization': `${process.env.REACT_APP_API_KEY}`,
                     },
                 })
+                console.log(response)
             const nextDeparturesApi = response.data.departures.map((departure) => ({
                 id: departure.links[1].id,
                 operator: '',
