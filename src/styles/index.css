@@ -65,6 +65,10 @@ li {
   align-items: center;
 }
 .home__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 80%;
   margin-top: 5rem;
   border-radius: 10px;
@@ -156,14 +160,14 @@ li {
 }
 
 .input-search {
-  width: 97%;
-  height: 2.5rem;
+  margin-left: 1rem;
   border-radius: 20px;
-  border: none;
+  border: 2px solid #009eff; /* Ajout de la bordure */
   font-size: 18px;
   padding: 1rem;
   font-weight: bold;
   color: grey;
+  z-index: 2;
   background-color: rgb(35, 35, 35);
 }
 
@@ -223,9 +227,6 @@ li {
   }
 }
 @media (max-width: 695px) {
-  .input-search {
-    width: 90%;
-  }
   .pagination a {
     font-size: 10px;
     font-weight: bold;
@@ -257,9 +258,6 @@ li {
     width: 25px;
     height: 25px;
     box-shadow: 4px 4px 3px -3px grey;
-  }
-  .input-search {
-    width: 85%;
   }
   .home__content-title {
     font-size: 1.2rem;
