@@ -164,7 +164,7 @@
     "Gare de Limoges-Bénédictins": "stop_area:SNCF:87592006"
   },
   "cahors": {
-    "Gare de Cahors": "stop_area:SNC:87613000"
+    "Gare de Cahors": "stop_area:SNCF:87613000"
   },
   "pau": {
     "Gare de Pau": "stop_area:SNCF:87672006"
@@ -203,7 +203,7 @@
     "Gare d'Annecy": "stop_area:SNCF:87746008"
   },
   "chambery": {
-    "Gare de Chambéry-Challes-Eaux": "stop_area:87741009"
+    "Gare de Chambéry-Challes-Eaux": "stop_area:SNCF:87741009"
   },
   "aix-bains": {
     "Gare d'Aix-Bains Revard": "stop_area:SNCF:87741132"
