@@ -24,13 +24,14 @@
     top: 0;
     right:0;
     margin-top: 1rem;
+    font-weight: bold;
     margin-right: 1rem;
     color: black;
     background: white;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.2rem;
     border-radius: .5rem;
-    border: 5px solid #8DE8FE;
+    border: 3px solid #8DE8FE;
     font-size: 1.2rem;
 
     @media screen and (max-width: 600px) {
