@@ -79,7 +79,7 @@
     font-size: 18px;
     font-weight: bold;
     margin: 0.5rem;
-    color: white;
+    color: #009eff;
     background: black;
     width: 40px;
     height: 40px;
@@ -88,6 +88,7 @@
 }
 .pagination a.active{
     background: rgb(115, 115, 115);
+    color: white;
 }
 .pagination a:hover{
     background: rgb(39, 39, 39);
