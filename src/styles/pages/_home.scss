@@ -57,10 +57,11 @@
 }
 .description-QR{
     position: absolute;
-    right: 1rem;
+    right: 2rem;
     font-size: 20px;
     font-weight: bold;
-    top: 2rem;
+    top: 1rem;
+    color: #009eff;
 }
 .pagination{
     display: flex;
@@ -153,15 +154,16 @@
     .QR-code{
         height: 50px;
         width: 50px;
-        top: 2rem;
+        top: 3rem;
         left: 2rem;
       }
       .description-QR{
         position: absolute;
-        left: 1rem;
+        left: 2rem;
         font-size: 14px;
         font-weight: bold;
         top: 0.2rem;
+        color: #fd9a00;
     }
     .pagination a{
         font-size: 8px;

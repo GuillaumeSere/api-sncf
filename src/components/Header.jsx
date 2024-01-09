@@ -6,7 +6,7 @@ import QRcode from "./QRcode.jpg";
 const Header = () => {
     return (
         <div className='header'>
-            <span className='description-QR'>QR Code du Site</span>
+            <span className='description-QR'>QR Code<br/>du Site</span>
             <img className='QR-code' src={QRcode} alt="" />
             <Player
                 autoplay
