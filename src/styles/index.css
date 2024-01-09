@@ -133,6 +133,7 @@ li {
   justify-content: center;
   text-decoration: none;
   font-size: 18px;
+  font-weight: bold;
   margin: 0.5rem;
   color: white;
   background: black;
@@ -140,6 +141,10 @@ li {
   height: 40px;
   border-radius: 50%;
   box-shadow: 4px 4px 3px -3px grey;
+}
+
+.pagination a.active {
+  background: rgb(115, 115, 115);
 }
 
 .pagination a:hover {
@@ -192,6 +197,14 @@ li {
   .input-search {
     width: 90%;
   }
+  .pagination a {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0.5rem;
+    width: 30px;
+    height: 30px;
+    box-shadow: 4px 4px 3px -3px grey;
+  }
 }
 @media (max-width: 500px) {
   .QR-code {
@@ -206,6 +219,14 @@ li {
     font-size: 14px;
     font-weight: bold;
     top: 0.2rem;
+  }
+  .pagination a {
+    font-size: 8px;
+    font-weight: bold;
+    margin: 0.5rem;
+    width: 25px;
+    height: 25px;
+    box-shadow: 4px 4px 3px -3px grey;
   }
   .input-search {
     width: 85%;
