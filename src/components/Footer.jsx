@@ -4,13 +4,13 @@ import linkedin from "../components/icons8-logo-linkedin-64.png";
 
 const Footer = () => {
   return (
-    <div class='footer'>
-    <div class="footer-links">
+    <div className='footer'>
+    <div className="footer-links">
         <a href="https://www.linkedin.com/in/guillaume-séré" target="_blank" rel="noreferrer"><img
-                src={linkedin} class='link2' /></a>
+                src={linkedin} className='link2' /></a>
         <p> <span>&copy;</span> Guillaume SERE</p>
         <a href="https://github.com/GuillaumeSere" target="_blank" rel="noreferrer"><img
-                src={git} class='link1' /></a>
+                src={git} className='link1' /></a>
 
     </div>
 </div>

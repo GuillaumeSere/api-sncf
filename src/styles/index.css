@@ -281,6 +281,7 @@ li {
 .city {
   padding: 3rem;
   background: #020202;
+  height: 100vh;
 }
 @media screen and (max-width: 600px) {
   .city {
