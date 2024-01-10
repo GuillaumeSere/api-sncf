@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/api-sncf/static/css/main.aed54758.css",
-    "main.js": "/api-sncf/static/js/main.ef36ad7c.js",
+    "main.css": "/api-sncf/static/css/main.2b2fca80.css",
+    "main.js": "/api-sncf/static/js/main.48c86829.js",
     "index.html": "/api-sncf/index.html",
-    "main.aed54758.css.map": "/api-sncf/static/css/main.aed54758.css.map",
-    "main.ef36ad7c.js.map": "/api-sncf/static/js/main.ef36ad7c.js.map"
+    "main.2b2fca80.css.map": "/api-sncf/static/css/main.2b2fca80.css.map",
+    "main.48c86829.js.map": "/api-sncf/static/js/main.48c86829.js.map"
   },
   "entrypoints": [
-    "static/css/main.aed54758.css",
-    "static/js/main.ef36ad7c.js"
+    "static/css/main.2b2fca80.css",
+    "static/js/main.48c86829.js"
   ]
 }
