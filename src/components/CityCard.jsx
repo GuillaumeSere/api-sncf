@@ -6,8 +6,8 @@ const CityCard = ({ city, currentPage }) => {
         <Link to={`${city}?page=${currentPage}`} className='city-card'>
             <h3 className='city-card__name'>{city}</h3>
             <img
-                type='image/jpeg'
-                src={`../api-sncf/images/${city}.jpg`}
+                type='image/webp'
+                src={`../api-sncf/images/${city}.webp`}
                 alt=''
                 style={{ height: '100%', width: '100%', borderRadius: '.5rem' }}
             />
