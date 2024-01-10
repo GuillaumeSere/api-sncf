@@ -74,6 +74,7 @@
     align-items: center;
     text-align: center;
     padding: 0.5rem;
+    width: 99%;
 }
 .pagination a{
     display: flex;
@@ -163,7 +164,7 @@
 
 @media (max-width:695px){
     .pagination a{
-        font-size: 10px;
+        font-size: 16px;
         font-weight: bold;
         margin: 0.5rem;
         width: 30px;
@@ -187,11 +188,14 @@
         top: 0.2rem;
         color: #fd9a00;
     }
+    .pagination{
+        width: 105%;
+    }
     .pagination a{
-        font-size: 8px;
+        font-size: 13px;
         font-weight: bold;
-        margin: 0.5rem;
-        width: 25px;
+        margin: 0.2rem;
+        width: 20px;
         height: 25px;
         box-shadow:4px 4px 3px -3px grey;
     }
