@@ -33,11 +33,34 @@ const Home = () => {
         if (currentPage > totalPageCount) setCurrentPage(totalPageCount);
     }, [currentPage, totalPageCount]);
 
-    // Calculer les numéros de page à afficher
-    const pageNumbersToDisplay = Array.from(
-        { length: Math.min(maxPageNumbers, totalPageCount) },
-        (_, index) => index + 1
-    );
+    // Calculer les numéros de page à afficher dynamiquement
+    const calculatePageNumbersToDisplay = () => {
+        if (totalPageCount <= maxPageNumbers) {
+            // Si le nombre total de pages est inférieur ou égal à maxPageNumbers,
+            // afficher toutes les pages.
+            return Array.from({ length: totalPageCount }, (_, index) => index + 1);
+        } else {
+            // Sinon, déterminez quels numéros de page afficher en fonction de la position actuelle
+            if (currentPage <= maxPageNumbers - Math.floor(maxPageNumbers / 2)) {
+                // Afficher les premières maxPageNumbers pages
+                return Array.from({ length: maxPageNumbers }, (_, index) => index + 1);
+            } else if (currentPage >= totalPageCount - Math.floor(maxPageNumbers / 2)) {
+                // Afficher les dernières maxPageNumbers pages
+                return Array.from(
+                    { length: maxPageNumbers },
+                    (_, index) => totalPageCount - maxPageNumbers + index + 1
+                );
+            } else {
+                // Afficher les pages autour de la page actuelle
+                return Array.from(
+                    { length: maxPageNumbers },
+                    (_, index) => currentPage - Math.floor(maxPageNumbers / 2) + index
+                );
+            }
+        }
+    };
+
+    const pageNumbersToDisplay = calculatePageNumbersToDisplay();
 
     return (
         <>
@@ -60,34 +83,33 @@ const Home = () => {
                         currentPage={currentPage}
                         cardsPerPage={cardsPerPage}
                     />
-                                <div className='pagination'>
-                    <Link
-                        to={`?page=${currentPage - 1}`}
-                        disabled={currentPage === 1}
-                        onClick={() => handlePageChange(currentPage - 1)}
-                    >
-                        &lt;
-                    </Link>
-                    {pageNumbersToDisplay.map((pageNumber) => (
+                    <div className='pagination'>
                         <Link
-                            key={pageNumber}
-                            to={`?page=${pageNumber}`}
-                            className={currentPage === pageNumber ? 'active' : ''}
-                            onClick={() => handlePageChange(pageNumber)}
+                            to={`?page=${currentPage - 1}`}
+                            disabled={currentPage === 1}
+                            onClick={() => handlePageChange(currentPage - 1)}
                         >
-                            {pageNumber}
+                            &lt;
                         </Link>
-                    ))}
-                    <Link
-                        to={`?page=${currentPage + 1}`}
-                        disabled={currentPage === totalPageCount}
-                        onClick={() => handlePageChange(currentPage + 1)}
-                    >
-                        &gt;
-                    </Link>
+                        {pageNumbersToDisplay.map((pageNumber) => (
+                            <Link
+                                key={pageNumber}
+                                to={`?page=${pageNumber}`}
+                                className={currentPage === pageNumber ? 'active' : ''}
+                                onClick={() => handlePageChange(pageNumber)}
+                            >
+                                {pageNumber}
+                            </Link>
+                        ))}
+                        <Link
+                            to={`?page=${currentPage + 1}`}
+                            disabled={currentPage === totalPageCount}
+                            onClick={() => handlePageChange(currentPage + 1)}
+                        >
+                            &gt;
+                        </Link>
+                    </div>
                 </div>
-                </div>
-    
             </div>
             <Footer />
         </>
