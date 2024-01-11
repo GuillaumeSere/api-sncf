@@ -294,13 +294,13 @@ li {
   border: 5px solid #8DE8FE;
   border-radius: 0.5rem;
   background: white;
-  width: 300px;
+  max-width: 500px;
   font-size: 3rem;
   text-transform: capitalize;
 }
 @media screen and (max-width: 600px) {
   .city__name {
-    width: 179px;
+    margin: 1rem;
     font-size: 2rem;
     margin-top: 2rem;
   }
@@ -355,6 +355,22 @@ li {
   font-size: 3rem;
 }
 
+@media screen and (max-width: 1700px) {
+  .city-card__name {
+    font-size: 25px;
+  }
+  .city-card__name:hover {
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .city-card__name {
+    font-size: 20px;
+  }
+  .city-card__name:hover {
+    font-size: 22px !important;
+  }
+}
 .departure {
   background-color: #123a9f;
   display: grid;

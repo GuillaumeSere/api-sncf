@@ -14,7 +14,7 @@
 
   @media screen and (max-width: 700px) {
     width: 80%;
-  }
+}
 
   &__name {
     position: absolute;
@@ -36,4 +36,24 @@
       font-size: 3rem;
     }
   }
+}
+
+@media screen and (max-width: 1700px) {
+    .city-card__name {
+       font-size: 25px;
+
+       &:hover{
+        font-size: 30px!important;
+       }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .city-card__name {
+       font-size: 20px;
+
+       &:hover{
+        font-size: 22px!important;
+       }
+    }
 }

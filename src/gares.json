@@ -4668,5 +4668,116 @@
         },
         "Dieupentale": {
             "Dieupentale": "stop_area:SNCF:87611681"
+        },
+        "Saint-Jean-de-Verges": {
+            "Saint-Jean-de-Verges": "stop_area:SNCF:87611624"
+        },
+        "Mérens-Vals": {
+            "Mérens-Vals": "stop_area:SNCF:87611525"
+        },
+        "Latour-de-Carol - Enveitg": {
+            "Latour-de-Carol - Enveitg": "stop_area:SNCF:87611483"
+        },
+        "La Ville-Dieu-du-Temple": {
+            "La Ville-Dieu-du-Temple": "stop_area:SNCF:87611459"
+        },
+        "Le Vernet d'Ariège": {
+            "Le Vernet d'Ariège": "stop_area:SNCF:87611350"
+        },
+        "Créteil Pompadour": {
+            "Créteil Pompadour": "stop_area:SNCF:87608802"
+        },
+        "Lavaveix-Mines": {
+            "Lavaveix-Mines": "stop_area:SNCF:87597781"
+        },
+        "Argenton-sur-Creuse": {
+            "Argenton-sur-Creuse": "stop_area:SNCF:87597120"
+        },
+        "Neuvy-Pailloux": {
+            "Neuvy-Pailloux": "stop_area:SNCF:87597070"
+        },
+        "Châteauroux": {
+            "Châteauroux": "stop_area:SNCF:87597005"
+        },
+        "Sarlat-la-Canéda": {
+            "Sarlat-la-Canéda": "stop_area:SNCF:87595827"
+        },
+        "Limeyrat": {
+            "Limeyrat": "stop_area:SNCF:87595553"
+        },
+        "Niversac": {
+            "Niversac": "stop_area:SNCF:87595512"
+        },
+        "La Cave": {
+            "La Cave": "stop_area:SNCF:87595215"
+        },
+        "Château-l'Évêque": {
+            "Château-l'Évêque": "stop_area:SNCF:87595165"
+        },
+        "Bretenoux - Biars": {
+            "Bretenoux - Biars": "stop_area:SNCF:87594762"
+        },
+        "Vayrac": {
+            "Vayrac": "stop_area:SNCF:87594739"
+        },
+        "Objat": {
+            "Objat": "stop_area:SNCF:87594630"
+        },
+        "Vigeois": {
+            "Vigeois": "stop_area:SNCF:87594218"
+        },
+        "Uzerche": {
+            "Uzerche": "stop_area:SNCF:87594200"
+        },
+        "Montaignac-Saint-Hippolyte": {
+            "Montaignac-Saint-Hippolyte": "stop_area:SNCF:87594135"
+        },
+        "Exideuil": {
+            "Exideuil": "stop_area:SNCF:87592881"
+        },
+        "Coussac-Bonneval": {
+            "Coussac-Bonneval": "stop_area:SNCF:87592840"
+        },
+        "La Meyze": {
+            "La Meyze": "stop_area:SNCF:87592808"
+        },
+        "Saint-Junien": {
+            "Saint-Junien": "stop_area:SNCF:87592709"
+        },
+        "Fromental": {
+            "Fromental": "stop_area:SNCF:87592360"
+        },
+        "Magnac - Vicq": {
+            "Magnac - Vicq": "stop_area:SNCF:87592279"
+        },
+        "Erdre-Active": {
+            "Erdre-Active": "stop_area:SNCF:87590356"
+        },
+        "Sauveterre-la-Lémance": {
+            "Sauveterre-la-Lémance": "stop_area:SNCF:87586495"
+        },
+        "Sainte-Bazeille": {
+            "Sainte-Bazeille": "stop_area:SNCF:87586479"
+        },
+        "Saint-Aigulin - La Roche-Chalais": {
+            "Saint-Aigulin - La Roche-Chalais": "stop_area:SNCF:87584540"
+        },
+        "Les Églisottes-et-Chalaures": {
+            "Les Églisottes-et-Chalaures": "stop_area:SNCF:87584532"
+        },
+        "Couze": {
+            "Couze": "stop_area:SNCF:87584425"
+        },
+        "Bergerac": {
+            "Bergerac": "stop_area:SNCF:87584268"
+        },
+        "Saint-Antoine-de-Breuilh": {
+            "Saint-Antoine-de-Breuilh": "stop_area:SNCF:87584201"
+        },
+        "Libourne": {
+            "Libourne": "stop_area:SNCF:87584052"
+        },
+        "Montmoreau": {
+            "Montmoreau": "stop_area:SNCF:87583674"
         }
 }

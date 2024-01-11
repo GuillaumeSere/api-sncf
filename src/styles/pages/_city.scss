@@ -13,12 +13,12 @@
         border: 5px solid #8DE8FE;
         border-radius: .5rem;
         background: white;
-        width: 300px;
+        max-width: 500px;
         font-size: 3rem;
         text-transform: capitalize;
 
         @media screen and (max-width: 600px) {
-            width: 179px;
+            margin: 1rem;
             font-size: 2rem;
             margin-top: 2rem;
         }
