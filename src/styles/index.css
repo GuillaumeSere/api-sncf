@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Nosifer&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&family=Permanent+Marker&family=Rubik+Scribble&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -352,7 +354,7 @@ li {
   cursor: pointer;
 }
 .city-card:hover .city-card__name {
-  font-size: 3rem;
+  font-family: "Rubik Scribble", system-ui;
 }
 
 @media screen and (max-width: 1700px) {
@@ -361,7 +363,7 @@ li {
   }
   .city-card__name:hover {
     font-size: 30px !important;
-    color: rgb(0, 252, 197);
+    color: rgb(255, 255, 255);
     font-weight: bold;
   }
 }
