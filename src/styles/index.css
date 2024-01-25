@@ -660,7 +660,7 @@ li {
   padding: 0.5rem 0rem;
   font-size: 1.2rem;
   border: none;
-  border-radius: 5px 5px 0 0;
+  border-radius: 35px 35px 0 0;
 }
 .directions__departures {
   background-color: #123a9f;
@@ -671,10 +671,12 @@ li {
 }
 .directions__departures--active {
   background-color: #123a9f;
+  border-bottom: 1px solid white;
 }
 .directions__arrivals {
   background-color: #28893a;
   color: white;
+  border-bottom: 1px solid white;
 }
 .directions__arrivals:hover {
   cursor: pointer;
