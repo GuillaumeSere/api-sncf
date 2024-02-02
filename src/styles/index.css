@@ -665,6 +665,7 @@ li {
 .directions__departures {
   background-color: #123a9f;
   color: white;
+  border-bottom: 1px solid white;
 }
 .directions__departures:hover {
   cursor: pointer;
