@@ -6,6 +6,11 @@
     color: white;
     font-size: 1.5rem;
 
+    .arrival__origin{
+        display: flex;
+        justify-content: center;
+    }
+
     @media screen and (max-width: 850px) {
         grid-template-columns: 1fr 3fr 3fr 4fr 1fr;
     }
@@ -13,6 +18,10 @@
     @media screen and (max-width: 650px) {
         font-size: 1rem;
         grid-template-columns: 1fr 4fr 4fr 4fr 1fr;
+
+        .arrival__stops li{
+            font-size: 14px;
+        }
     }
 
     &--light {
@@ -64,7 +73,7 @@
         font-weight: bold;
 
         @media screen and (max-width: 750px) {
-            font-size: 1rem;
+            font-size: 12px;
         }
 
         &--disappear {
@@ -78,7 +87,6 @@
         grid-row-start: 1;
         grid-row-end: span 2;
         font-weight: bold;
-        margin-left: 1rem;
     }
 
     &__stops {

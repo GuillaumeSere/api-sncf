@@ -468,7 +468,7 @@ li {
 }
 @media screen and (max-width: 750px) {
   .departure__delay {
-    font-size: 1rem;
+    font-size: 12px;
   }
 }
 .departure__delay--disappear {
@@ -495,7 +495,7 @@ li {
 }
 @media screen and (max-width: 750px) {
   .departure__stops li {
-    font-size: 1rem;
+    font-size: 14px;
   }
 }
 .departure__stops li img {
@@ -513,6 +513,10 @@ li {
   color: white;
   font-size: 1.5rem;
 }
+.arrival .arrival__origin {
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 850px) {
   .arrival {
     grid-template-columns: 1fr 3fr 3fr 4fr 1fr;
@@ -522,6 +526,9 @@ li {
   .arrival {
     font-size: 1rem;
     grid-template-columns: 1fr 4fr 4fr 4fr 1fr;
+  }
+  .arrival .arrival__stops li {
+    font-size: 14px;
   }
 }
 .arrival--light {
@@ -568,7 +575,7 @@ li {
 }
 @media screen and (max-width: 750px) {
   .arrival__delay {
-    font-size: 1rem;
+    font-size: 12px;
   }
 }
 .arrival__delay--disappear {
@@ -580,7 +587,6 @@ li {
   grid-row-start: 1;
   grid-row-end: span 2;
   font-weight: bold;
-  margin-left: 1rem;
 }
 .arrival__stops {
   white-space: nowrap;
@@ -664,6 +670,7 @@ li {
 .train-station {
   width: 80%;
   margin: auto;
+  box-shadow: 1px 2px 3px rgba(246, 246, 246, 0.5);
 }
 
 .directions {
@@ -675,12 +682,13 @@ li {
   padding: 0.5rem 0rem;
   font-size: 1.2rem;
   border: none;
-  border-radius: 35px 35px 0 0;
+  border-radius: 10px;
 }
 .directions__departures {
   background-color: #123a9f;
   color: white;
   border-bottom: 1px solid white;
+  border-radius: 10px 0 0 0;
 }
 .directions__departures:hover {
   cursor: pointer;
@@ -693,6 +701,7 @@ li {
   background-color: #28893a;
   color: white;
   border-bottom: 1px solid white;
+  border-radius: 0 10px 0 0;
 }
 .directions__arrivals:hover {
   cursor: pointer;
@@ -738,6 +747,7 @@ li {
   margin-bottom: 1rem;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+  box-shadow: 1px 1px 1px rgba(191, 191, 191, 0.5);
 }
 .all-stations-schedule__station-name {
   font-size: 1.2rem;
