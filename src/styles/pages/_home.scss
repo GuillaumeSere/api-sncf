@@ -46,6 +46,22 @@
   }
 }
 
+.all-stations-link {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: #009eff;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #0080cc;
+    }
+}
+
 .animation{
    margin-top: -5rem !important;
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import {  NavLink, Outlet, useParams } from 'react-router-dom'
 import Footer from '../components/Footer'
 import TrainStations from '../components/TrainStations'
+import AllStationsSchedule from '../components/AllStationsSchedule'
 import stations from '../gares.json'
 
 const City = () => {
@@ -14,6 +15,7 @@ const City = () => {
       <h2 className='city__name'>{city}</h2>
       <TrainStations stations={stations[city]} />
       <Outlet />
+      <AllStationsSchedule stations={stations[city]} />
       <NavLink to="/" className='home__link'>Accueil</NavLink>
     </div>
     <Footer />

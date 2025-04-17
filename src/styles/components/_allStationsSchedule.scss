@@ -1,0 +1,77 @@
+.all-stations-schedule {
+    margin-top: 2rem;
+    padding: 1rem;
+
+    &__title {
+        font-size: 1.5rem;
+        color: #009eff;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    &__grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__card {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        width: 1400px;
+        margin-bottom: 1rem;
+        backdrop-filter: blur(10px);
+    }
+
+    &__station-name {
+        font-size: 1.2rem;
+        color: #009eff;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #009eff;
+        padding-bottom: 0.5rem;
+    }
+
+    &__departures {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    &__departure {
+        background: rgba(138, 138, 138, 0.2);
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+    }
+
+    &__departure-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+    }
+
+    &__train-number {
+        font-weight: bold;
+        color: #219b3a;
+    }
+
+    &__destination {
+        color: #ccc;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    &__departure-time {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+
+    &__time {
+        color: #e5de1a;
+    }
+
+    &__delay {
+        color: #ff4444;
+    }
+} 

@@ -103,6 +103,21 @@ li {
   }
 }
 
+.all-stations-link {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #009eff;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.all-stations-link:hover {
+  background-color: #0080cc;
+}
+
 .animation {
   margin-top: -5rem !important;
 }
@@ -699,4 +714,70 @@ li {
   100% {
     transform: translate(-50%, 0);
   }
+}
+.all-stations-schedule {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.all-stations-schedule__title {
+  font-size: 1.5rem;
+  color: #009eff;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.all-stations-schedule__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.all-stations-schedule__card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 1400px;
+  margin-bottom: 1rem;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.all-stations-schedule__station-name {
+  font-size: 1.2rem;
+  color: #009eff;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #009eff;
+  padding-bottom: 0.5rem;
+}
+.all-stations-schedule__departures {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.all-stations-schedule__departure {
+  background: rgba(138, 138, 138, 0.2);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+.all-stations-schedule__departure-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+.all-stations-schedule__train-number {
+  font-weight: bold;
+  color: #219b3a;
+}
+.all-stations-schedule__destination {
+  color: #ccc;
+  font-size: 18px;
+  font-weight: 500;
+}
+.all-stations-schedule__departure-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.all-stations-schedule__time {
+  color: #e5de1a;
+}
+.all-stations-schedule__delay {
+  color: #ff4444;
 }/*# sourceMappingURL=index.css.map */
