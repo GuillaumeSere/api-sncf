@@ -51,8 +51,14 @@
     }
 
     &__train-number {
+        display: flex;
         font-weight: bold;
         color: #219b3a;
+
+        p{
+            color: rgb(207, 207, 207);
+            margin-right: .5rem;
+        }
     }
 
     &__destination {
@@ -69,9 +75,30 @@
 
     &__time {
         color: #e5de1a;
+        display: flex;
+
+        p{
+            color: white;
+            margin-right: .5rem;
+        }
     }
 
     &__delay {
         color: #ff4444;
     }
-} 
+}
+
+@media (max-width:470px ){
+    .all-stations-schedule__title{
+        font-size: 18px;
+    }
+    .all-stations-schedule__destination{
+        font-size: 14px;
+    }
+    .all-stations-schedule__train-number{
+        font-size: 14px;
+    }
+    .all-stations-schedule__time{
+        font-size: 14px;
+    }
+}

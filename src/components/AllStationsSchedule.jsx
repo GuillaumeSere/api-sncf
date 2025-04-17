@@ -62,12 +62,12 @@ const AllStationsSchedule = ({ stations }) => {
                             {stationData.departures.slice(0, 5).map((departure, index) => (
                                 <div key={`${stationId}-${index}`} className="all-stations-schedule__departure">
                                     <div className="all-stations-schedule__departure-header">
-                                        <span className="all-stations-schedule__train-number">N° du Train: {departure.trainNumber}</span>
+                                        <span className="all-stations-schedule__train-number"><p>N° du Train:</p> {departure.trainNumber}</span>
                                         <span className="all-stations-schedule__destination">{departure.destination}</span>
                                     </div>
                                     <div className="all-stations-schedule__departure-time">
                                         <span className="all-stations-schedule__time">
-                                            Départ: {departure.baseDepartureTime.toLocaleTimeString()}
+                                           <p> Départ:</p> {departure.baseDepartureTime.toLocaleTimeString()}
                                         </span>
                                         {calculateDelay(departure.baseDepartureTime, departure.realDepartureTime) > 0 && (
                                             <span className="all-stations-schedule__delay">
