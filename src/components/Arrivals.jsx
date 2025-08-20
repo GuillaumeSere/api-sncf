@@ -38,7 +38,7 @@ const Arrivals = () => {
         return () => {
             clearInterval(interval)
         }
-    }, [])
+    }, []);
 
   return (
     <div className='arrivals'>
