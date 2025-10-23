@@ -208,7 +208,6 @@ li {
   justify-content: center;
   align-content: center;
   bottom: 0;
-  height: 60px;
   background: rgba(0, 0, 0, 0.652);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
@@ -300,8 +299,19 @@ li {
   .home__content-title {
     margin-top: -3rem;
   }
+  .footer {
+    height: 40px;
+  }
   .footer p {
     font-size: 0.8rem;
+  }
+  .link1 {
+    width: 30px;
+    height: 30px;
+  }
+  .link2 {
+    width: 30px;
+    height: 30px;
   }
 }
 .city {
