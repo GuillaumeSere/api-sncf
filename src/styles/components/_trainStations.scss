@@ -39,7 +39,7 @@
         }
 
         &--active {
-            border: 5px solid #8DE8FE;
+            border: 5px solid #009eff;
             color: black;
         }
 
@@ -54,7 +54,7 @@
                 left: 0;
                 height: 5px;
                 width: 0px;
-                background-color: #8DE8FE;
+                background-color: #009eff;
                 opacity: 0;
                 transition: all 1s ease-in-out;
             }
