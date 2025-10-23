@@ -5,5 +5,9 @@
   align-content: space-around;
   width: 100%;
   min-height: 80vh;
-  border-radius: 10px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.27);
+  backdrop-filter: blur(5px);
+  margin-top: 0.5rem;
+      border: 1px solid black;
 }

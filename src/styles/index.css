@@ -5,7 +5,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  background: linear-gradient(90deg, #788fa6 0%, #232323 100%);
+  background: url(../../public/images/bg.png) no-repeat center center fixed;
+  background-size: cover;
 }
 
 ::-webkit-scrollbar {
@@ -73,13 +74,20 @@ li {
   align-items: center;
   width: 80%;
   margin-top: 5rem;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .home__content-title {
   text-align: center;
   font-family: "Roboto Mono", monospace;
   margin-top: 1rem;
-  color: #009eff;
+  color: #000000;
+  background: rgba(0, 0, 0, 0.27);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
 }
 .home__link {
   position: absolute;
@@ -118,12 +126,12 @@ li {
   background-color: #0080cc;
 }
 
-.animation {
-  margin-top: -5rem !important;
-}
-
 .header {
-  height: 120px;
+  height: 170px;
+  background: rgba(0, 0, 0, 0.257);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid black;
 }
 
 .QR-code {
@@ -140,7 +148,6 @@ li {
   font-size: 20px;
   font-weight: bold;
   top: 1rem;
-  color: #009eff;
 }
 
 .pagination {
@@ -179,8 +186,8 @@ li {
 
 .input-search {
   margin-left: 1rem;
-  border-radius: 20px;
-  border: 2px solid #009eff; /* Ajout de la bordure */
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0); /* Ajout de la bordure */
   font-size: 18px;
   padding: 1rem;
   font-weight: bold;
@@ -199,7 +206,7 @@ li {
   justify-content: center;
   align-content: center;
   bottom: 0;
-  height: 100px;
+  height: 60px;
   background: black;
 }
 
@@ -255,6 +262,9 @@ li {
   }
 }
 @media (max-width: 500px) {
+  .header {
+    height: 130px;
+  }
   .QR-code {
     height: 50px;
     width: 50px;
@@ -267,16 +277,15 @@ li {
     font-size: 14px;
     font-weight: bold;
     top: 0.2rem;
-    color: #fd9a00;
   }
   .pagination {
     width: 105%;
   }
   .pagination a {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     margin: 0.2rem;
-    width: 20px;
+    width: 25px;
     height: 25px;
     box-shadow: 4px 4px 3px -3px grey;
   }
@@ -330,18 +339,23 @@ li {
   align-content: space-around;
   width: 100%;
   min-height: 80vh;
-  border-radius: 10px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.27);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  margin-top: 0.5rem;
+  border: 1px solid black;
 }
 
 .city-card {
   position: relative;
   width: 30%;
   height: 15rem;
-  border-radius: 10px;
+  border-radius: 5px;
   background-position: center;
   text-decoration: none;
   margin: 1rem 0;
-  border: 2px #009eff solid;
+  border: 1px solid black;
 }
 @media screen and (max-width: 1200px) {
   .city-card {
@@ -357,12 +371,12 @@ li {
   position: absolute;
   text-align: center;
   font-size: 2rem;
-  color: white;
+  color: rgb(0, 0, 0);
   text-transform: capitalize;
   background-color: rgba(59, 59, 59, 0.5);
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: font-size ease-in-out 0.5s;
 }
 .city-card:hover {
@@ -370,6 +384,8 @@ li {
 }
 .city-card:hover .city-card__name {
   font-family: "Rubik Scribble", system-ui;
+  font-weight: bold;
+  color: white;
 }
 
 @media screen and (max-width: 1700px) {

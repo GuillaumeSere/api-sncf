@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '..', '.env') });
 
-const SITE_URL = process.env.SITE_URL || 'https://example.com';
+const SITE_URL = process.env.SITE_URL || 'https://api-sncf.vercel.app/';
 
 const readJson = (filePath) => {
   const abs = path.resolve(filePath);

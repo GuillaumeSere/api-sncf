@@ -16,13 +16,19 @@
     align-items: center;
    width: 80%;
     margin-top: 5rem;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   &__content-title{
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     margin-top: 1rem;
-    color: #009eff;
+    color: #000000;
+    background: rgba(0, 0, 0, 0.27);
+    backdrop-filter: blur(5px);
+     border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+    padding: 0.5rem;
   }
   &__link{
     position: absolute;
@@ -62,12 +68,12 @@
     }
 }
 
-.animation{
-   margin-top: -5rem !important;
-}
-
 .header{
-    height: 120px;
+    height: 170px;
+    background: rgba(0, 0, 0, 0.257);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            border-bottom: 1px solid black;
 }
 .QR-code{
   position: absolute;
@@ -82,7 +88,6 @@
     font-size: 20px;
     font-weight: bold;
     top: 1rem;
-    color: #009eff;
 }
 .pagination{
     display: flex;
@@ -117,8 +122,8 @@
 
 .input-search {
     margin-left: 1rem;
-    border-radius: 20px;
-    border: 2px solid #009eff; /* Ajout de la bordure */
+    border-radius: 5px;
+    border: 2px solid #00000000; /* Ajout de la bordure */
     font-size: 18px;
     padding: 1rem;
     font-weight: bold;
@@ -137,7 +142,7 @@
     justify-content: center;
     align-content: center;
     bottom: 0;
-    height: 100px;
+    height: 60px;
     background: black;
 }
 .footer-links{
@@ -190,6 +195,9 @@
 }
 
 @media (max-width:500px){
+    .header{
+        height: 130px;
+    }
     .QR-code{
         height: 50px;
         width: 50px;
@@ -202,16 +210,15 @@
         font-size: 14px;
         font-weight: bold;
         top: 0.2rem;
-        color: #fd9a00;
     }
     .pagination{
         width: 105%;
     }
     .pagination a{
-        font-size: 13px;
+        font-size: 12px;
         font-weight: bold;
         margin: 0.2rem;
-        width: 20px;
+        width: 25px;
         height: 25px;
         box-shadow:4px 4px 3px -3px grey;
     }
