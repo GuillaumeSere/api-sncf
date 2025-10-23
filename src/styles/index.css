@@ -80,8 +80,8 @@ li {
   text-align: center;
   font-family: "Roboto Mono", monospace;
   margin-top: 1rem;
-  color: #000000;
-  background: rgba(0, 0, 0, 0.27);
+  color: rgb(211, 211, 211);
+  background: rgba(0, 0, 0, 0.652);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   border: 1px solid black;
@@ -128,7 +128,7 @@ li {
 
 .header {
   height: 170px;
-  background: rgba(0, 0, 0, 0.257);
+  background: rgba(0, 0, 0, 0.652);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   border-bottom: 1px solid black;
@@ -147,7 +147,9 @@ li {
   right: 2rem;
   font-size: 20px;
   font-weight: bold;
+  color: rgb(211, 211, 211);
   top: 1rem;
+  font-family: "Rubik Scribble", system-ui;
 }
 
 .pagination {
@@ -207,7 +209,9 @@ li {
   align-content: center;
   bottom: 0;
   height: 60px;
-  background: black;
+  background: rgba(0, 0, 0, 0.652);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .footer-links {
@@ -233,13 +237,9 @@ li {
 }
 
 .footer p {
-  color: white;
+  color: #009eff;
   font-family: "Roboto Mono", monospace;
   text-align: center;
-}
-
-.footer p {
-  color: #009eff;
 }
 
 .footer span {
@@ -340,7 +340,7 @@ li {
   width: 100%;
   min-height: 80vh;
   border-radius: 5px;
-  background: rgba(0, 0, 0, 0.27);
+  background: rgba(0, 0, 0, 0.704);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   margin-top: 0.5rem;
@@ -371,7 +371,7 @@ li {
   position: absolute;
   text-align: center;
   font-size: 2rem;
-  color: rgb(0, 0, 0);
+  color: rgb(241, 241, 241);
   text-transform: capitalize;
   background-color: rgba(59, 59, 59, 0.5);
   width: 100%;
